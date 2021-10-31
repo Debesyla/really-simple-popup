@@ -119,7 +119,7 @@ function really_simple_popup_div() {
 				<div class="really_simple__background rs__popup-close"></div>
 				<div class="really_simple__popup-inner">
 					<div class="really_simple__box">
-						<img class="really_simple__popup-close" src="' . plugin_dir_url( __FILE__ ) . 'x.svg">';
+						<img class="rs__popup-close" src="' . plugin_dir_url( __FILE__ ) . 'x.svg">';
 						
 						if( get_option( 'really_simple_option_nuoroda' ) ) {
 							echo '<a href="' . get_option( 'really_simple_option_nuoroda' ) . '">';
