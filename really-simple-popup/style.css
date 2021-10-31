@@ -1,4 +1,4 @@
-body.rs-popup-open {
+body.really_simple-popup-open {
 	overflow: hidden;
 }
 
@@ -13,14 +13,14 @@ body.rs-popup-open {
 	height: 100%;
 }
 
-#rs-popup .rs__background {
+#rs-popup .really_simple__background {
 	position: absolute;
 	background: rgba(0, 0, 0, 0.85);
 	height: 100%;
 	width: 100%;
 }
 
-#rs-popup .rs__popup-inner {
+#rs-popup .really_simple__popup-inner {
 	pointer-events: none;
 	position: relative;
 	display: flex;
@@ -29,7 +29,7 @@ body.rs-popup-open {
 	height: 100vh;
 }
 
-#rs-popup .rs__box {
+#rs-popup .really_simple__box {
 	pointer-events: all;
 	background: white;
 	width: 100%;
@@ -39,21 +39,21 @@ body.rs-popup-open {
 	position: relative;
 }
 
-.rs__box a {
+.really_simple__box a {
 	line-height: 0;
 	display: block;
 }
 
-.rs__box img.rs__popup-close {
+.really_simple__box img.really_simple__popup-close {
 	position: absolute;
 	right: 0;
 	padding: 30px;
 }
-.rs__box img.rs__popup-close:hover {
+.really_simple__box img.really_simple__popup-close:hover {
 	cursor: pointer;
 }
 
-.rs__box img.popup-img {
+.really_simple__box img.popup-img {
 	line-height: 0;
 	display: block;
 }
