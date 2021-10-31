@@ -116,7 +116,7 @@ function really_simple_popup_div() {
 	
 	if( get_option( 'really_simple_popup_attachment_id' ) ) {
 		echo '<div class="really_simple__popup" id="rs-popup">
-				<div class="really_simple__background really_simple__popup-close"></div>
+				<div class="really_simple__background rs__popup-close"></div>
 				<div class="really_simple__popup-inner">
 					<div class="really_simple__box">
 						<img class="really_simple__popup-close" src="' . plugin_dir_url( __FILE__ ) . 'x.svg">';
