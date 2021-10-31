@@ -44,12 +44,12 @@ body.really_simple-popup-open {
 	display: block;
 }
 
-.really_simple__box img.really_simple__popup-close {
+.really_simple__box img.rs__popup-close {
 	position: absolute;
 	right: 0;
 	padding: 30px;
 }
-.really_simple__box img.really_simple__popup-close:hover {
+.really_simple__box img.rs__popup-close:hover {
 	cursor: pointer;
 }
 
